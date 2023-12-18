@@ -1,13 +1,38 @@
+.fixed-nav{
+    display: none;
+}
+
 .navbar li{
     display: flex;
     padding: 4px 8px;
     justify-content: center;
     align-items: center;
     align-self: stretch;
+    padding: 8px 32px;
 }
 
 .navbar li:hover{
     background-color:#00A48733;
-    border-radius: 20px;
     transition: background-color ease-in .2s;
+}
+
+
+@media only screen and (min-width:600px) {
+    .fixed-nav{
+        display: flex;
+    }
+
+    .mobile-nav{
+        display: none;
+    }
+
+    .navbar li{
+        padding: 0px;
+    }
+
+    .navbar li:hover{
+        background-color:#00A48733;
+        border-radius: 20px;
+        transition: background-color ease-in .2s;
+    }
 }

@@ -8,11 +8,13 @@ import Products from './pages/Products';
 import Team from './pages/Team';
 import flag from './assets/img/flag.png'
 import Footer from './components/Footer';
+import NavMobile from './components/NavMobile';
 
 function App() {
   return (
     <>
       <Navbar />
+      <NavMobile />
       <SmBanner />
       <Home />
       <Products />

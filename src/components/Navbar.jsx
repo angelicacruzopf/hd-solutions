@@ -6,11 +6,11 @@ import {ReactComponent as Logo} from '../assets/img/hs-logo-full.svg';
 export default function Navbar() {
 
     return (
-        <nav class="flex flex-row justify-between items-center text-sm bg-white fixed z-50 w-full shadow-md top-0">
+        <nav class="fixed-nav flex flex-row justify-between items-center text-sm bg-white fixed z-50 w-full shadow-md top-0">
             <div class="m-3 text-xs">
                 <Logo />
             </div>  
-            <div class='flex flex-row grow justify-center'>
+            <div class='flexflex-row grow justify-center'>
                 <ul class='navbar flex flex-row grow justify-evenly font-medium text-lighterGray text-center'>
                     <li><Link to="/">Inicio</Link></li>
                     <li><Link to="/Productos">Productos</Link></li>
@@ -25,5 +25,6 @@ export default function Navbar() {
                 (939) 252 4501
                 </BlackBtn>
         </nav>
+        
     );
 }
