@@ -16,7 +16,7 @@ export default function Form() {
             <div class="col-span-2">
                 <input type="tel" name="phone" id="phone"  placeholder="Número telefónico" class=" placeholder:text-mediumGray"/>
             </div>
-            <div class="col-span-2 row-span-6">
+            <div class="col-span-2 row-span-6 h-full">
                 <textarea name="message" id="message" placeholder="Escribe un mensaje" class="h-full placeholder:pt-2 placeholder:text-mediumGray"></textarea>
             </div>           
         </form>
