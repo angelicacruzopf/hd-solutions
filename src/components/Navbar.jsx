@@ -11,7 +11,7 @@ export default function Navbar() {
                 <Logo />
             </div>  
             <div class='flexflex-row grow justify-center'>
-                <ul class='navbar flex flex-row grow justify-evenly font-medium text-lighterGray text-center'>
+                <ul class='navbar flex flex-row grow justify-evenly font-medium text-lighterGray text-center sm:text-xs break-words lg:text-base gap-x-2'>
                     <li><Link to="/">Inicio</Link></li>
                     <li><Link to="/Productos">Productos</Link></li>
                     <li><Link to="/Sobre-nosotros">Sobre nosotros</Link></li>
@@ -21,9 +21,11 @@ export default function Navbar() {
                     <li><Link to="/Horarios">Horarios</Link></li> 
                 </ul>
             </div>
+            <div>
                 <BlackBtn>
                 (939) 252 4501
                 </BlackBtn>
+            </div>
         </nav>
         
     );
