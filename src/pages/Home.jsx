@@ -20,7 +20,7 @@ export default function Home() {
             DE DESCUENTO
             </h1>
           </div>
-            <div class="flex flex-row items-center justify-center w-[80%] md:w-[50%] sm:w-1/3">
+            <div class="flex flex-row items-center justify-center w-[80%] md:w-[40%] max-w-[342px]">
                 <BtnFlat>Ver ofertas</BtnFlat>
             </div>
         </div>

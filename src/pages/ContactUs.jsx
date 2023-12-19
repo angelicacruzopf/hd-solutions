@@ -12,7 +12,7 @@ export default function ContactUs() {
                     <div class="text-primary font-semibold md:inline-block" hidden >
                         <div class="flex items-center mb-7">
                         <i class="fa-regular fa-envelope"></i>
-                            <p class="ms-4">hardwaresolutionspr@gmail.com</p>
+                            <p class="ms-4 break-all">hardwaresolutionspr@gmail.com</p>
                         </div>
                         <div class="flex items-center mb-7">
                         <i class="fa-solid fa-phone"></i>

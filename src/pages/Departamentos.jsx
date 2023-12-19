@@ -5,7 +5,7 @@ export default function Team() {
         <section class="flex justify-center bg-secondary text-white">
             <div class="flex flex-col items-center w-9/12 pt-16 pb-24">
                 <h2 class="font-bold text-center mb-10 text-2xl md:text-5xl">Departamentos</h2>
-                <div class="flex flex-wrap justify-between md:justify-center gap-y-20 h-full">
+                <div class="flex flex-wrap justify-between lg:justify-center gap-x-2 gap-y-20 h-full">
                     <TeamCard />
                 </div>
             </div>
