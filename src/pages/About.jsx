@@ -5,8 +5,8 @@ export default function AboutUs() {
   return (
     <section>
       <div class="grid grid-cols-1">
-        <div class="grid md:grid-cols-2 py-16 w-9/12 place-self-center">
-          <div class="flex flex-col justify-center pe-10">
+        <div class="grid md:grid-cols-2 py-12 md:py-16 w-9/12 place-self-center">
+          <div class="flex flex-col justify-center md:pe-10">
             <div class="grid grid-cols-1 place-items-center h-18 mb-8">
               <img src={Logo} alt="Logotipo Hardware Solutions" class="w-2/3"/>
             </div>

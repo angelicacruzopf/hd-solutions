@@ -5,7 +5,7 @@ import ContactUs from './pages/ContactUs';
 import Home from './pages/Home';
 import Locations from './pages/Locations';
 import Products from './pages/Products';
-import Team from './pages/Team';
+import Team from './pages/Departamentos';
 import flag from './assets/img/flag.png'
 import Footer from './components/Footer';
 import NavMobile from './components/NavMobile';

@@ -3,7 +3,7 @@
 
 export default function Form() {
     return(
-        <form class="grid grid-cols-2 gap-x-10 grid-rows-8 h-full">
+        <form class="flex flex-col gap-4 md:grid grid-cols-2 gap-x-10 grid-rows-8 h-full">
             <div>
                 <input type="text" name="firstName" id="firstName"  placeholder="Nombres" class=" placeholder:text-mediumGray"/>
             </div>
