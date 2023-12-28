@@ -25,10 +25,10 @@ export default function NavMobile() {
           <BtnIcnLeft></BtnIcnLeft>
         </div>
         <div
-          className="text-lg ps-4 text-darkGray cursor-pointer"
+          className="text-lg text-darkGray cursor-pointer"
           onClick={handleShowNavbar}
         >
-          <i className="fa-solid fa-bars"></i>
+          <i className="fa-solid fa-bars text-3xl"></i>
         </div>
       </div>
 

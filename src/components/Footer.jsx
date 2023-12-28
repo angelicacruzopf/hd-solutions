@@ -3,7 +3,7 @@ import logoIcn from '../assets/img/hs-logo-icon.png'
 export default function Footer() {
     return(
         <section class="bg-neutral-800 flex flex-col justify-center items-center py-16">
-            <div class="md:grid grid-cols-3 w-[90%] sm:w-3/5 place-items-center pb-16">
+            <div class="md:grid grid-cols-3 w-[90%] sm:w-3/5 place-items-center pb-16 max-w-[1000px]">
                 <div class="flex flex-col gap-6 w-full">
                     <div class="bg-neutral-300 justify-self-center self-center flex justify-center items-center">
                         <img src={logoIcn} alt="Ícono del logo" class="md:object-cover md:w-14"/>

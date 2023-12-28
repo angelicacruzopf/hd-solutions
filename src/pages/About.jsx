@@ -5,7 +5,7 @@ export default function AboutUs() {
   return (
     <section id="about">
       <div class="grid grid-cols-1">
-        <div class="grid md:grid-cols-2 py-12 md:py-16 w-9/12 place-self-center">
+        <div class="grid md:grid-cols-2 py-12 md:py-16 w-9/12 place-self-center max-w-[1000px]">
           <div class="flex flex-col justify-center md:pe-10">
             <div class="grid grid-cols-1 place-items-center h-18 mb-8">
               <img src={Logo} alt="Logotipo Hardware Solutions" class="w-2/3"/>
@@ -21,7 +21,7 @@ export default function AboutUs() {
             </div>
           </div>
           <div class="bg-gray-300 w-full h-128 rounded-3xl font-normal hidden md:inline-block">
-            <img src={photoAbout} alt="Fotografía de sucursal" class="object-cover h-128 rounded-3xl"/>
+            <img src={photoAbout} alt="Fotografía de sucursal" class="object-cover h-full w-full rounded-3xl"/>
           </div>
         </div>
       </div>

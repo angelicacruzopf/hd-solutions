@@ -4,7 +4,7 @@ import BtnFlatGreen from "../components/buttons/BtnFlatGreen";
 export default function ContactUs() {
     return (
         <section id="contacto" class="flex flex-col">
-            <div class="flex flex-col md:flex-row py-20 w-[90%] md:w-9/12 place-self-center gap-8">
+            <div class="flex flex-col md:flex-row py-20 w-[90%] md:w-9/12 place-self-center gap-8 max-w-[1000px]">
                 <div class="flex flex-col w-full gap-8 md:w-1/2">
                     <h2 class="font-bold md:mb-10 text-2xl text-center md:text-4xl md:text-left">¿Necesitas algo?
                     <br />
