@@ -14,7 +14,7 @@ export default function Navbar() {
             <div class="m-3 text-xs">
                 <Logo />
             </div>  
-            <div class='flexflex-row grow justify-center'>
+            <div class='flexflex-row grow justify-center max-w-[1000px]'>
                 <ul class='navbar flex flex-row grow justify-evenly font-medium text-lighterGray text-center sm:text-xs break-words lg:text-base gap-x-2'>
                 <li>
               <Link activeClass="active" 
