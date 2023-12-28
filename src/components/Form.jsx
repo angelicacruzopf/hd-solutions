@@ -3,13 +3,16 @@
 
 export default function Form() {
     return(
-        <form class="flex flex-col gap-4 sm:grid grid-cols-2 gap-x-10 grid-rows-8 h-full">
-            <div>
-                <input type="text" name="firstName" id="firstName"  placeholder="Nombres" class=" placeholder:text-mediumGray"/>
+        <form class="flex flex-col gap-4 h-full w-full">
+            <div class="flex flex-col md:flex-row w-full gap-4">
+                <div>
+                    <input type="text" name="firstName" id="firstName"  placeholder="Nombres" class="placeholder:text-mediumGray"/>
+                </div>
+                <div>
+                    <input type="text" name="lastName" id="lastName"  placeholder="Apellidos" class="placeholder:text-mediumGray"/>
+                </div>
             </div>
-            <div>
-                <input type="text" name="lastName" id="lastName"  placeholder="Apellidos" class=" placeholder:text-mediumGray"/>
-            </div>
+            
             <div class="col-span-2">
                 <input type="email" name="email" id="email"  placeholder="Correo electrónico" class=" placeholder:text-mediumGray"/>
             </div>

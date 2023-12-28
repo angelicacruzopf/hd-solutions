@@ -3,7 +3,7 @@ import Logo from '../assets/img/hs-logo-full.svg';
 
 export default function AboutUs() {
   return (
-    <section>
+    <section id="about">
       <div class="grid grid-cols-1">
         <div class="grid md:grid-cols-2 py-12 md:py-16 w-9/12 place-self-center">
           <div class="flex flex-col justify-center md:pe-10">

@@ -22,7 +22,7 @@ function App() {
       <Team />
       <ContactUs />
       <Locations />
-      <section>
+      <section id='horarios'>
         <div class="flex flex-col items-center ms-4 text-lighterGray gap-y-4 md:hidden text-lg font-semibold">
             <p class="font-bold text-black text-2xl">Horarios:</p>
             <p>Lunes a sábado: 7:00am - 6:00pm</p>

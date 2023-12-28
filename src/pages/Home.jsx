@@ -8,8 +8,8 @@ console.log (ventaNavidad);
 export default function Home() {
 
   return (
-    <section class="h-full text-center flex flex-col items-center banner justify-between pt-8 md:pt-16 relative">
-      <div class="flex flex-col justify-between items-center w-[80%] md:w-2/3">
+    <section id="hero" class="h-full text-center flex flex-col items-center banner justify-between pt-8 md:pt-16">
+      <div class="flex flex-col justify-between items-center w-[80%] md:w-2/3 pt-32">
         <div>
             <img src={ventaNavidad} alt="Letras rojas"/>
         </div>
